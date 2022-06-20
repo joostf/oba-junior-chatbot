@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/head") %>
+  <body>
+    <%- include("partials/header") %>
+    <main class="detail-template">
+      <section class="content">
+        <a class="goback" href="/"> <img src="/assets/icons/arrow-2.svg"><span>Terug</span></a>
+
+        <%if (item.length > 0) { %> <% item.forEach(function(item) { %>
+        <div class="heading">
+          <div class="img-container">
+            <img src="<%= item.img %>" alt="<%= item.title %>" />
+          </div>
+
+          <div>
+            <h1 class="item-title"><%= item.title %></h1>
+            <p class="item-author">Auteur(s): <%= item.authors %></p>
+            <p class="item-year">Jaar: <%= item.year %></p>
+
+            <div class="helper-section">
+              <div class="mini-grid">
+    
+                <div class="call-to-action">
+
+                <div class="clip-text">
+                  <p class="text-cloud">
+                    <span>Hey daar!</span>Zal ik een stukje voorlezen?
+                  </p>
+                </div>
+                
+
+                <div class="button-wrapper">
+                  <button class="speakButton">Ja!</button>
+                  <button class="cancelButton hidden">Stop!</button>
+                </div>
+                </div>
+
+                <div class="lion-container">
+                  <img
+                  src="/assets/images/lion.png"
+                  class="mascotte little-helper"
+                  alt="little-helper"
+                />
+                </div>
+                <audio src="/assets/audio/detail.mp3" autoplay muted></audio>
+                
+            </div>
+            <p class="text speechText"><%= item.summary %></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="reserveAction">
+        <p>Dit boek reserveren?</p>
+        <a href="<%= item.link %>" class="external-link">Reserveren</a>
+      </div>
+      <% }); %> <% } %>
+    </main>
+
+    <%- include("partials/footer") %>
+  </body>
+</html>
