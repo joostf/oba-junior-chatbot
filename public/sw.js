@@ -1,10 +1,7 @@
 // when static  files are changed update them under a new cache name
 const staticCacheName = "site-static-v5";
 // const dynamicCacheName = "site-dynamic-v1";
-const assets = [
-  "/css/index.css",
-  // offline page
-];
+const assets = ["/css/index.css", "/html/offline.html"];
 
 // LIMIT CACHE SIZE
 // const limitCacheSize = (name, size) => {
@@ -58,7 +55,7 @@ self.addEventListener("fetch", (evt) => {
           //       return fetchRes;
           //     });
           //   })
-          .catch(() => caches.match("/"))
+          .catch(() => caches.match("/html/offline.html"))
       );
     })
   );
