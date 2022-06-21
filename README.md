@@ -68,6 +68,23 @@ Voor mijn concept wil ik een dashboard maken waarin de 3 concepten hierboven all
    </figcaption>
    </figure>
 
+## Features
+
+:chains: Features for this app are mainly still under construction.
+
+1. **Search** <br>
+   Search for the Topics you are interested from over the whole World.
+2. **Endless scroll** <br>
+   Scroll trough endless articles related to your topic or scroll to the headlines of this current day!
+3. **Sharing** <br>
+   Share articles on Twitter.
+4. **Text to Speech** <br>
+   With the Text to Speech Feature you can have it read to you instead of reading it yourself.
+5. **Suggested Topics** <br>
+   With the filter-buttons your can search on topics that are suggested by the App.
+6. **Read more** <br>
+   Clicking on the banner of the article will bring your to the detail page where can read more about it.
+
 ## External data source
 
 Voor dit project heb ik een externe data source nodig die opties heeft voor het verkijgen van real-time data dus eigenlijk het kunnen leggen van een connectie tussen client en server. Ik heb gekozen voor de Binance API.
@@ -122,12 +139,6 @@ Hieronder zie je de functies of addons en de priority ervan.
 
    - live trading
 
-## Tools
-
-- socket.io
-- ejs
-- express.js
-
 ## Usage
 
 For using this app yourself you need to follow the following steps:
@@ -176,6 +187,10 @@ Tristan Varewijck <br>
 :email: [Tristan.varewijck@gmail.com](Tristan.varewijck@gmail.com) ||
 :large_blue_diamond: [https://www.linkedin.com/in/tristanvarewijck-1999/](https://www.linkedin.com/in/tristanvarewijck-1999/)
 
+Muhammet Komür <br>
+:email: [Tristan.varewijck@gmail.com](muhammet075@gmail.com) ||
+:large_blue_diamond: [https://www.linkedin.com/in/muhammet-k%C3%B6m%C3%BCr-96197b163/](https://www.linkedin.com/in/muhammet-k%C3%B6m%C3%BCr-96197b163/)
+
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 ---
@@ -184,7 +199,23 @@ Tristan Varewijck <br>
 
 Usage is provided under the [MIT License](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) MIT. See [LICENSE](https://github.com/TristanVarewijck/WAFStoNode/blob/master/LICENSE) for the full details.
 
-## Grading
+## Criteria en beoordeling
+
+Met de Meesterproef laat je zien wat je hebt geleerd tijdens de minor. Studenten die de vakken hebben gehaald kunnen aan de Meesterproef beginnen.
+
+Het eindproject wordt beoordeeld op een Design rationale, een Product biografie en een reflectie op het eigen niveau. Én of de klant blij is met het gemaakte project.
+
+**Design Rationale** <br>
+In de Design Rationale schrijf je de debriefing, de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code. De Design Rationale is een verantwoording van je ontwerp. Als je in een team werkt kun je de Design Rationale als team schrijven. (TIP: Doe dit dan in de project repo)
+
+**Product Biografie** <br>
+In de Product Biografie hou je per week bij wat je allemaal hebt gedaan. Je schrijft over het proces, de iteraties, de werkwijze en de planning. Ook schetsen, testen, voorbeeld code en inspiratie zijn deel van de Product Biografie. De Product Biografie is individueel, ook als je in een team werkt.
+
+**Reflectie op eigen niveau** <br>
+Aan het eind van het project reflecteer je systematisch op je werk en het proces. Aan de hand van de vak-rubrics schrijf je welke vakken wel of niet aan bod zijn gekomen en waarom. Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
+
+**Een blije klant** <br>
+Voor de klant werk je aan een bestaand product of maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX. (Jeweettoch) Een blije klant is een goede klant. Soms ontkom je er niet aan dat je een beetje eigenwijs moet doen. Dan doe je juist niet wat de klant wil en probeer je de opdrachtgever te overtuigen met een proof-of-concept. En soms kan het voorkomen dat het proces niet helemaal soepel loopt. Dat hoort erbij en daar leer je van. Aan het eind van het project vragen we de klant feedback op het geleverde werk en het proces.
 
 <!-- Here are some hints for your project! -->
 
