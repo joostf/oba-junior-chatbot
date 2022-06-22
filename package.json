@@ -5,7 +5,7 @@
   "description": "chatbot for OBA",
   "author": "Tristan Varewijck",
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "scss": "node-sass --watch scss -o public/css"
   },
   "dependencies": {
