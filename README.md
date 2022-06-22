@@ -10,92 +10,28 @@ De chatbot vraagt wat de kind leuk vind. Het kindt zegt dan een woord en dan wor
 <img src="https://raw.githubusercontent.com/TristanVarewijck/oba-junior-chatbot/main/public/assets/images/schermen2.png" alt="schermen"/>
 <br/><br/>
 
+## Dependencies
+* HTML, CSS & JS
+* SCSS
+* <a href="https://zoeken.oba.nl/api/v1/">Oba API</a>
+* Node
+* Express
+* EJS
+* SwiperJS
+<br/><br/>
 
+## Features List
+* Boeken / Films bekijken
+* Praten tegen de chatbot
+* Samenvatting van boeken / films laten voorlezen
+* Op een kindvriendelijke manier geholpen worden
+<br/><br/>
 
-## Live Demo :clapper:
+## Live Demo
+<a href="https://oba-chatbot.herokuapp.com/">https://oba-chatbot.herokuapp.com/</a><br/>
+🚨 De API functineert niet altijd op de live demo, om de app optimaal te ervaren adviseren we je om het project te clonen
+<br/></br>
 
-See the latest updated demo here:
-[Link to DEMO](https://pwa-news-node.herokuapp.com/)
-
----
-
-## Description :label:
-
-For the project "real-time-web" we had to make an application that works with web-sockets. I want to make a web application what received real-time crypto data visualised in a Graph. In addition i want to make a chat room for a certain Topic so people can discuss in real time the prices changes of the coin in focus.
-
----
-
-## Table of Contents :arrow_right_hook:
-
-- [Features](#features)
-- [Activiy](#activitydiagram)
-- [Socketio](#socketio)
-- [Used Tools](#Tools)
-- [Usage](#Usage)
-
----
-
-## Proof of Concept
-
-Here you can see the process of the concept.
-
-### Concept draft
-
-Voor mijn concept wil ik een dashboard maken waarin de 3 concepten hierboven allemaal samenkomen. Ik wil ervoor zorgen dat mensen kunnen zoeken op een coin en daarover data visualisaties kunnen zien gebaseeerd op real-time. Als inspiratie hiervoor heb ik de dashboard van binance gebruikt zoals je ziet hieronder. Natuurlijk is dit slechts inspiratie en zal mijn applicatie anders zijn en ook anders werken.
-
- <figure>
-   <img src="https://github.com/TristanVarewijck/real-time-web-2122/blob/main/public/assets/readme/binance-dasboard.png" width="600px"/>
-   <figcaption>
-   <p><strong>Binance dashboard (inspiratie)</strong></p>
-  <p>
-    Hierboven zie je de dashboard die binance gebruikt. Het ziet er supper ingewikeld uit maar daarom pak ik er ook een aantal delen uit en wil ik sommige delen vervangen met een chatroom, als je op coins zoekt dan blijft de UI hetzelfde maar veranderd enkel te data. Ik wil op een manier fixen dat elk coin-id een chatroom is zodat mensen met elkaar kunnen praten over een specifieke coin in aparte rooms. 
-  </p>
-   
-   </figcaption>
-   </figure>
-
----
-
-<figure>
-   <img src="https://github.com/TristanVarewijck/real-time-web-2122/blob/main/public/assets/readme/real-time-cryptoDashboard.png" width="600px"/>
-   <figcaption>
-   <p><strong>Concept LoFi Wireframe</strong></p>
-   <ol>
-    <li>
-     Boven aan is er ruimte voor { token price } data zoals price, 24h, high, low
-    </li>
-    <li>
-     In het grote vlak, hier komt de grafiek te staan of een ticker, die wordt gegenereerd doormiddel van real-time data
-    </li>
-    <li>
-    In de twee vlakken hieronder kan je de trades zien "sells" en "buys" 
-    </li>
-     <li>
-    In het vlak links komt de chatroom die is gebaseerd op de coin id zodat iedereen die deze coin bekijkt kan discusiëren over deze coin.  
-    </li>
-    <li>
-   Hierboven heb je een zoekbalk waarin je coins kan zoeken. En dus rooms kan joinen.   
-    </li>
-   </ol>
-   </figcaption>
-   </figure>
-
-## Features
-
-:chains: Features for this app are mainly still under construction.
-
-1. **Search** <br>
-   Search for the Topics you are interested from over the whole World.
-2. **Endless scroll** <br>
-   Scroll trough endless articles related to your topic or scroll to the headlines of this current day!
-3. **Sharing** <br>
-   Share articles on Twitter.
-4. **Text to Speech** <br>
-   With the Text to Speech Feature you can have it read to you instead of reading it yourself.
-5. **Suggested Topics** <br>
-   With the filter-buttons your can search on topics that are suggested by the App.
-6. **Read more** <br>
-   Clicking on the banner of the article will bring your to the detail page where can read more about it.
 
 ## External data source
 
