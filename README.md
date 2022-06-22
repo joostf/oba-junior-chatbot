@@ -9,38 +9,27 @@ De chatbot vraagt wat de kind leuk vind. Het kindt zegt dan een woord en dan wor
 ---
 
 ## Schermen
+
 <img src="https://raw.githubusercontent.com/TristanVarewijck/oba-junior-chatbot/main/public/assets/images/schermen2.png" alt="schermen"/>
 <br/><br/>
 
-<<<<<<< HEAD
 Voor de Meesterproef hebben wij de opdracht gekregen om voor de OBA
 een nieuwe experience te maken voor kinderen van 6/7 jaar oud. Doormiddel van een chatbot willen wij de mogelijkheid bieden dat kinderen boeken kunnen zoeken doormiddel van geluids interactie.
-=======
----
-
-## Dependencies
-* HTML, CSS & JS
-* SCSS
-* <a href="https://zoeken.oba.nl/api/v1/">Oba API</a>
-* Node
-* Express
-* EJS
-* SwiperJS
-<br/><br/>
->>>>>>> e4e9c1cfa7980292c20c2427aca256ba5e613356
 
 ---
 
 ## Features List
-* Boeken / Films bekijken
-* Praten tegen de chatbot
-* Samenvatting van boeken / films laten voorlezen
-* Op een kindvriendelijke manier geholpen worden
-<br/><br/>
+
+- Boeken / Films bekijken
+- Praten tegen de chatbot
+- Samenvatting van boeken / films laten voorlezen
+- Op een kindvriendelijke manier geholpen worden
+  <br/><br/>
 
 ---
 
 ## Live Demo
+
 <a href="https://oba-chatbot.herokuapp.com/">https://oba-chatbot.herokuapp.com/</a><br/>
 🚨 De API functineert niet altijd op de live demo, om de app optimaal te ervaren adviseren we je om het project te clonen
 <br/></br>
@@ -48,23 +37,27 @@ een nieuwe experience te maken voor kinderen van 6/7 jaar oud. Doormiddel van ee
 ---
 
 ## Installeren
+
 1. Clone de repository<br/>
+
 ```
   git clone https://github.com/TristanVarewijck/oba-junior-chatbot
 ```
 
 2. Navigeer naar het project<br/>
+
 ```
  cd oba-junior-chatbot
 ```
 
-
 3. Installeer NPM<br/>
+
 ```
  npm i
 ```
 
 4. Maak een .env bestand aan met de volgende gegevens<br/>
+
 ```
 DATA_AUTH="{your_key}"
 DATA_Q="https://zoeken.oba.nl/api/v1/search/?q=classification:prentenboek"
@@ -72,16 +65,17 @@ DATA_ID="https://zoeken.oba.nl/api/v1/search/?id="
 ```
 
 5. Start de app op localhost:3500<br/>
+
 ```
  npm start
 ```
+
 <br/><br/>
 
 ---
 
 ## External data source
 
-<<<<<<< HEAD
 Voor dit project heb ik een externe data source gebruikt van de OBA, in deze API kan je boeken vinden uit verschillende categoriëren wij hebben ervoor gekozen om alleen prentenboeken te nemen aangezien de applicatie voor kinderen
 
 <img src="https://github.com/TristanVarewijck/TechDefined/blob/main/assets/images/newApi-LOGO.jpeg" alt="newsapi-logo" height="250px"/>
@@ -90,22 +84,12 @@ Voor dit project gebruik ik de API van de OBA.
 Om deze applicatie te gebruiken heb je de volgende values nodig met de bijhorende params.
 
 Deze gebruik ik om te zoeken naar specifieke onderwerpen in prentenboeken:
-=======
-Voor dit project hebben wij de Oba API gebruikt. <a href="https://zoeken.oba.nl/api/v1">https://zoeken.oba.nl/api/v1</a>.
-
-Om in de Api te zoeken gebruiken we de endpoints hieronder in de params:
-
->>>>>>> e4e9c1cfa7980292c20c2427aca256ba5e613356
 
 |  Key  |    q    |   sortBy    | language | pageSize |  apiKey  |
 | :---: | :-----: | :---------: | :------: | :------: | :------: |
 | value | {input} | publishedAt |    en    |   100    | {apiKey} |
 
-<<<<<<< HEAD
 Deze API call gebruik ik op de zoeken op ID zodat elk boek een eigen detail pagina heeft.
-=======
-Deze API call gebruiken we op de zoeken op ID zodat elk boek een eigen detail pagina heeft.
->>>>>>> e4e9c1cfa7980292c20c2427aca256ba5e613356
 
 |  Key  | country |  category  | pageSize |  apiKey  |
 | :---: | :-----: | :--------: | :------: | :------: |
@@ -115,7 +99,6 @@ Deze API call gebruiken we op de zoeken op ID zodat elk boek een eigen detail pa
 
 ---
 
-
 ## MOSCOW - tabel
 
 Hieronder zie je de functies of addons en de priority ervan.
@@ -124,17 +107,10 @@ Hieronder zie je de functies of addons en de priority ervan.
 
 1. Must have
 
-<<<<<<< HEAD
    - ~~Product overview~~
    - ~~Chatbot api search~~
    - ~~Detail pages~~
    - ~~Different carachters~~
-=======
-   - Product overview
-   - Chatbot api search
-   - Detail pages
-   - Different carachters
->>>>>>> e4e9c1cfa7980292c20c2427aca256ba5e613356
 
 2. Should have
 
@@ -148,7 +124,6 @@ Hieronder zie je de functies of addons en de priority ervan.
 4. Won't have
 
    - Reservation integration
-<<<<<<< HEAD
 
 ## Usage
 
@@ -189,9 +164,6 @@ npm start
 ```
 
 ### Thats it! :smile:
-=======
-<br/><br/>
->>>>>>> e4e9c1cfa7980292c20c2427aca256ba5e613356
 
 ---
 
@@ -212,5 +184,3 @@ Muhammet Komür <br>
 ## License
 
 Usage is provided under the [MIT License](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) MIT. See [LICENSE](https://github.com/TristanVarewijck/WAFStoNode/blob/master/LICENSE) for the full details.
-
-

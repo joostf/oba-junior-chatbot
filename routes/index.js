@@ -29,6 +29,8 @@ router.get("/", async function (req, res, next) {
         const responseFour = dataParser(responses[3].data.results);
         const responseFive = dataParser(responses[4].data.results);
 
+        console.log(responseOne);
+
         res.render("index", {
           responseOne: responseOne,
           responseTwo: responseTwo,
