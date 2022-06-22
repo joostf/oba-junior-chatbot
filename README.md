@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/mvcqKPV/poppetjes.png" alt="poppetjes"/>
 
-<img src="https://i.ibb.co/0hXvW8V/schermen.png" alt="schermen"/>
+<img src="https://raw.githubusercontent.com/TristanVarewijck/oba-junior-chatbot/main/public/assets/images/schermen2.png" alt="schermen"/>
 
 
 
