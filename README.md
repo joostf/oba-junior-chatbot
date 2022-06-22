@@ -33,6 +33,38 @@ De chatbot vraagt wat de kind leuk vind. Het kindt zegt dan een woord en dan wor
 <br/></br>
 
 
+## Installeren
+1. Clone de repository<br/>
+```
+  git clone https://github.com/TristanVarewijck/oba-junior-chatbot
+```
+
+2. Navigeer naar het project<br/>
+```
+ cd oba-junior-chatbot
+```
+
+
+3. Installeer NPM<br/>
+```
+ npm i
+```
+
+4. Maak een .env bestand aan met de volgende gegevens<br/>
+```
+DATA_AUTH="{your_key}"
+DATA_Q="https://zoeken.oba.nl/api/v1/search/?q=classification:prentenboek"
+DATA_ID="https://zoeken.oba.nl/api/v1/search/?id="
+```
+
+5. Start de app op localhost:3500<br/>
+```
+ npm start
+```
+<br/><br/>
+
+
+
 ## External data source
 
 Voor dit project heb ik een externe data source nodig die opties heeft voor het verkijgen van real-time data dus eigenlijk het kunnen leggen van een connectie tussen client en server. Ik heb gekozen voor de Binance API.
@@ -147,48 +179,4 @@ Muhammet Komür <br>
 
 Usage is provided under the [MIT License](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) MIT. See [LICENSE](https://github.com/TristanVarewijck/WAFStoNode/blob/master/LICENSE) for the full details.
 
-## Criteria en beoordeling
 
-Met de Meesterproef laat je zien wat je hebt geleerd tijdens de minor. Studenten die de vakken hebben gehaald kunnen aan de Meesterproef beginnen.
-
-Het eindproject wordt beoordeeld op een Design rationale, een Product biografie en een reflectie op het eigen niveau. Én of de klant blij is met het gemaakte project.
-
-**Design Rationale** <br>
-In de Design Rationale schrijf je de debriefing, de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code. De Design Rationale is een verantwoording van je ontwerp. Als je in een team werkt kun je de Design Rationale als team schrijven. (TIP: Doe dit dan in de project repo)
-
-**Product Biografie** <br>
-In de Product Biografie hou je per week bij wat je allemaal hebt gedaan. Je schrijft over het proces, de iteraties, de werkwijze en de planning. Ook schetsen, testen, voorbeeld code en inspiratie zijn deel van de Product Biografie. De Product Biografie is individueel, ook als je in een team werkt.
-
-**Reflectie op eigen niveau** <br>
-Aan het eind van het project reflecteer je systematisch op je werk en het proces. Aan de hand van de vak-rubrics schrijf je welke vakken wel of niet aan bod zijn gekomen en waarom. Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
-
-**Een blije klant** <br>
-Voor de klant werk je aan een bestaand product of maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX. (Jeweettoch) Een blije klant is een goede klant. Soms ontkom je er niet aan dat je een beetje eigenwijs moet doen. Dan doe je juist niet wat de klant wil en probeer je de opdrachtgever te overtuigen met een proof-of-concept. En soms kan het voorkomen dat het proces niet helemaal soepel loopt. Dat hoort erbij en daar leer je van. Aan het eind van het project vragen we de klant feedback op het geleverde werk en het proces.
-
-<!-- Here are some hints for your project! -->
-
-<!-- Start out with a title and a description -->
-
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured .in your project and what are its properties 🌠 -->
-
-<!-- This would be a good place for your data life cycle ♻️-->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- We all stand on the shoulders of giants, please link all the sources you used in to create this project. -->
-
-<!-- How about a license here? When in doubt use GNU GPL v3. 📜  -->
