@@ -241,7 +241,7 @@ Voor de klant werk je aan een bestaand product of maak je een (werkend) prototyp
 
 <!-- ...but how does one use this project? What are its features 🤔 -->
 
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
+<!-- What external data source is featured .in your project and what are its properties 🌠 -->
 
 <!-- This would be a good place for your data life cycle ♻️-->
 
