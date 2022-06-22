@@ -11,6 +11,7 @@ De chatbot vraagt wat de kind leuk vind. Het kindt zegt dan een woord en dan wor
 ## Schermen
 <img src="https://raw.githubusercontent.com/TristanVarewijck/oba-junior-chatbot/main/public/assets/images/schermen2.png" alt="schermen"/>
 <br/><br/>
+
 ---
 
 ## Dependencies
