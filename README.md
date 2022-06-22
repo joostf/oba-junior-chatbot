@@ -1,5 +1,10 @@
 # Meesterproef - OBA Chatbot
 
+<img src="https://i.ibb.co/mvcqKPV/poppetjes.png" alt="poppetjes"/>
+
+
+
+
 ## Live Demo :clapper:
 
 See the latest updated demo here:
