@@ -9,7 +9,8 @@ See the latest updated demo here:
 
 ## Description :label:
 
-For the project "real-time-web" we had to make an application that works with web-sockets. I want to make a web application what received real-time crypto data visualised in a Graph. In addition i want to make a chat room for a certain Topic so people can discuss in real time the prices changes of the coin in focus.
+Voor de Meesterproef hebben wij de opdracht gekregen om voor de OBA
+een nieuwe experience te maken voor kinderen van 6/7 jaar oud. Doormiddel van een chatbot willen wij de mogelijkheid bieden dat kinderen boeken kunnen zoeken doormiddel van geluids interactie.
 
 ---
 
@@ -87,22 +88,20 @@ Voor mijn concept wil ik een dashboard maken waarin de 3 concepten hierboven all
 
 ## External data source
 
-Voor dit project heb ik een externe data source nodig die opties heeft voor het verkijgen van real-time data dus eigenlijk het kunnen leggen van een connectie tussen client en server. Ik heb gekozen voor de Binance API.
+Voor dit project heb ik een externe data source gebruikt van de OBA, in deze API kan je boeken vinden uit verschillende categoriëren wij hebben ervoor gekozen om alleen prentenboeken te nemen aangezien de applicatie voor kinderen
 
 <img src="https://github.com/TristanVarewijck/TechDefined/blob/main/assets/images/newApi-LOGO.jpeg" alt="newsapi-logo" height="250px"/>
 
-For this project i am using the NewsAPI from - [NewsAPI](https://newsapi.org/) <br>
-To search on the app im using the endpoints below with the following params:
+Voor dit project gebruik ik de API van de OBA.
+Om deze applicatie te gebruiken heb je de volgende values nodig met de bijhorende params.
 
-This one is so i can search articles for specific topics:
-[https://newsapi.org/v2/everything](https://newsapi.org/v2/everything)
+Deze gebruik ik om te zoeken naar specifieke onderwerpen in prentenboeken:
 
 |  Key  |    q    |   sortBy    | language | pageSize |  apiKey  |
 | :---: | :-----: | :---------: | :------: | :------: | :------: |
 | value | {input} | publishedAt |    en    |   100    | {apiKey} |
 
-this one is so i can see the latest headlines in a specific category:
-[https://newsapi.org/v2/headlines](https://newsapi.org/v2/headlines)
+Deze API call gebruik ik op de zoeken op ID zodat elk boek een eigen detail pagina heeft.
 
 |  Key  | country |  category  | pageSize |  apiKey  |
 | :---: | :-----: | :--------: | :------: | :------: |
@@ -120,24 +119,23 @@ Hieronder zie je de functies of addons en de priority ervan.
 
 1. Must have
 
-   - ~~list of users~~
-   - ~~messages of user styled differently~~
-   - ~~data changed on search~~
+   - ~~Product overview~~
+   - ~~Chatbot api search~~
+   - ~~Detail pages~~
+   - ~~Different carachters~~
 
 2. Should have
 
-   - See users in all groups
-   - Private messaging
-   - going up or going down - poll
+   - Account (session storage)
 
 3. Could have
 
-   - database with messages
-   - D3 realtime candle chart
+   - Reading list
+   - More GSAP animations
 
 4. Won't have
 
-   - live trading
+   - Reservation integration
 
 ## Usage
 
