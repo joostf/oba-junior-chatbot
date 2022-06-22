@@ -80,9 +80,48 @@ Voor dit project hebben wij de Oba API gebruikt. <a href="https://zoeken.oba.nl/
 
 Om in de Api te zoeken gebruiken we de endpoints hieronder in de params:
 
+
 |  Key  |    q    |   sortBy    | language | pageSize |  apiKey  |
 | :---: | :-----: | :---------: | :------: | :------: | :------: |
 | value | {input} | publishedAt |    en    |   100    | {apiKey} |
+
+Deze API call gebruiken we op de zoeken op ID zodat elk boek een eigen detail pagina heeft.
+
+|  Key  | country |  category  | pageSize |  apiKey  |
+| :---: | :-----: | :--------: | :------: | :------: |
+| value |   us    | technology |   100    | {apiKey} |
+
+<br/><br/>
+
+---
+
+
+## MOSCOW - tabel
+
+Hieronder zie je de functies of addons en de priority ervan.
+
+// 9 mei 2022
+
+1. Must have
+
+   - Product overview
+   - Chatbot api search
+   - Detail pages
+   - Different carachters
+
+2. Should have
+
+   - Account (session storage)
+
+3. Could have
+
+   - Reading list
+   - More GSAP animations
+
+4. Won't have
+
+   - Reservation integration
+<br/><br/>
 
 ---
 
