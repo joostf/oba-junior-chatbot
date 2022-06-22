@@ -188,7 +188,7 @@ Tristan Varewijck <br>
 :large_blue_diamond: [https://www.linkedin.com/in/tristanvarewijck-1999/](https://www.linkedin.com/in/tristanvarewijck-1999/)
 
 Muhammet Komür <br>
-:email: [Tristan.varewijck@gmail.com](muhammet075@gmail.com) ||
+:email: [muhammet075@gmail.com](muhammet075@gmail.com) ||
 :large_blue_diamond: [https://www.linkedin.com/in/muhammet-k%C3%B6m%C3%BCr-96197b163/](https://www.linkedin.com/in/muhammet-k%C3%B6m%C3%BCr-96197b163/)
 
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
