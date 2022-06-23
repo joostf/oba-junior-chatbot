@@ -84,21 +84,16 @@ DATA_ID="https://zoeken.oba.nl/api/v1/search/?id="
 
 ## External data source
 
-Voor dit project heb ik een externe data source gebruikt van de OBA, in deze API kan je boeken vinden uit verschillende categoriëren wij hebben ervoor gekozen om alleen prentenboeken te nemen aangezien de applicatie voor kinderen
+Voor dit project hebben we een externe data source gebruikt van de OBA, in deze API kan je boeken vinden uit verschillende categoriëren wij hebben ervoor gekozen om alleen prentenboeken te nemen aangezien de applicatie voor kinderen
 
 Om deze applicatie te gebruiken heb je de volgende values nodig met de bijhorende params.
 
-Deze gebruik ik om te zoeken naar specifieke onderwerpen in prentenboeken:
+Deze gebruiken we om te zoeken naar specifieke onderwerpen in prentenboeken:
 
 |  Key  |    q    |   sortBy    | language | pageSize |  apiKey  |
 | :---: | :-----: | :---------: | :------: | :------: | :------: |
 | value | {input} | publishedAt |    en    |   100    | {apiKey} |
 
-Deze API call gebruik ik op de zoeken op ID zodat elk boek een eigen detail pagina heeft.
-
-|  Key  | country |  category  | pageSize |  apiKey  |
-| :---: | :-----: | :--------: | :------: | :------: |
-| value |   us    | technology |   100    | {apiKey} |
 
 <br/><br/>
 
