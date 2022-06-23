@@ -130,47 +130,8 @@ Hieronder zie je de functies of addons en de priority ervan.
 
    - Reservation integration
 
-## Usage
-
-For using this app yourself you need to follow the following steps:
-
-### 1. Clone Repo locally
-
-```
-git clone https://github.com/TristanVarewijck/TechDefined.git
-```
-
-### 2. Connect your API key
-
-If you want to connect with the API you have to fill in your own personal {apiKey} wich you can get here: <br>
-[Get NewsAPI apiKey](https://newsapi.org/).
-
-```
-https://newsapi.org/v2/everything?q=${input.value}&sortBy=publishedAt&language=en&pageSize=100&apiKey=${apiKey}
-https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=100&apiKey=${apiKey}
-```
-
-### 3. Install dependencies
-
-Install to need dependencies for using this project.
-
-```
-npm i
-```
-
-### 4. Run on Localhost
-
-Because i am using the free version of this API your need to run it on your localhost to test it. If you want to move further with this app make sure to check out the [pricing scheme](https://newsapi.org/pricing) of NewsAPI.
-
-For easily running this project on your localhost you can use the command:
-
-```
-npm start
-```
-
-### Thats it! :smile:
-
 ---
+<br/><br/>
 
 ## Meta
 
