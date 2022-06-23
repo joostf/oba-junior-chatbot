@@ -13,8 +13,16 @@ De chatbot vraagt wat de kind leuk vind. Het kindt zegt dan een woord en dan wor
 <img src="https://raw.githubusercontent.com/TristanVarewijck/oba-junior-chatbot/main/public/assets/images/schermen2.png" alt="schermen"/>
 <br/><br/>
 
-Voor de Meesterproef hebben wij de opdracht gekregen om voor de OBA
-een nieuwe experience te maken voor kinderen van 6/7 jaar oud. Doormiddel van een chatbot willen wij de mogelijkheid bieden dat kinderen boeken kunnen zoeken doormiddel van geluids interactie.
+---
+
+## Dependencies
+- HTML, CSS & JS
+- SCSS
+- Oba API
+- Node
+- Express
+- EJS
+- SwiperJS
 
 ---
 
@@ -78,9 +86,6 @@ DATA_ID="https://zoeken.oba.nl/api/v1/search/?id="
 
 Voor dit project heb ik een externe data source gebruikt van de OBA, in deze API kan je boeken vinden uit verschillende categoriëren wij hebben ervoor gekozen om alleen prentenboeken te nemen aangezien de applicatie voor kinderen
 
-<img src="https://github.com/TristanVarewijck/TechDefined/blob/main/assets/images/newApi-LOGO.jpeg" alt="newsapi-logo" height="250px"/>
-
-Voor dit project gebruik ik de API van de OBA.
 Om deze applicatie te gebruiken heb je de volgende values nodig met de bijhorende params.
 
 Deze gebruik ik om te zoeken naar specifieke onderwerpen in prentenboeken:
