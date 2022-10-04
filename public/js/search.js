@@ -45,7 +45,7 @@ for (let i = 0; i < keuzebtn.length; i++) {
           console.log(uitkomst + keuze + prentboek);
 
           async function handleApi() {
-            const endpoint = "https://zoeken.oba.nl/api/v1/search/?q=";
+            const endpoint = "https://cors-anywhere.herokuapp.com/https://zoeken.oba.nl/api/v1/search/?q=";
             const key = "cdb8415c172ec6178b63451e222891a6";
             const detail = "Default";
             const resultaat = `${endpoint}${prentboek}${uitkomst}&authorization=${key}&refine=true&facet=type(${keuze})&output=json`;
@@ -106,7 +106,7 @@ for (let i = 0; i < keuzebtn.length; i++) {
           var prentboek = "";
           console.log(uitkomst + keuze + prentboek);
           async function handleApi() {
-            const endpoint = "https://zoeken.oba.nl/api/v1/search/?q=";
+            const endpoint = "https://cors-anywhere.herokuapp.com/https://zoeken.oba.nl/api/v1/search/?q=";
             const key = "cdb8415c172ec6178b63451e222891a6";
             const detail = "Default";
             const resultaat = `${endpoint}${prentboek}${uitkomst}&authorization=${key}&refine=true&facet=type(${keuze})&output=json`;
