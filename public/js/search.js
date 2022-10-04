@@ -179,7 +179,7 @@ document.querySelector(".mascotte").addEventListener("click", () => {
     setTimeout(function () {
       mascotte.src = "/assets/images/Lion.png";
     }, 2000);
-  } else if (src === "http://localhost:3500/assets/images/Robot.png") {
+  } else if (src === "http://localhost:3500/assets/images/mascotte-robot.png") {
     console.log("robot");
     var robotlach = new Audio("/assets/audio/robotlach.mp3");
     robotlach.play();
