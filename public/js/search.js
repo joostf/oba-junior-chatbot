@@ -177,7 +177,7 @@ document.querySelector(".mascotte").addEventListener("click", () => {
     id.play();
     mascotte.src = "/assets/images/leeuwlach.gif";
     setTimeout(function () {
-      mascotte.src = "/assets/images/Lion.png";
+      mascotte.src = "/assets/images/lion.png";
     }, 2000);
   } else if (src === "http://localhost:3500/assets/images/mascotte-robot.png") {
     console.log("robot");
@@ -193,7 +193,7 @@ document.querySelector(".mascotte").addEventListener("click", () => {
     id.play();
     mascotte.src = "/assets/images/monsterlach.gif";
     setTimeout(function () {
-      mascotte.src = "/assets/images/Monster.png";
+      mascotte.src = "/assets/images/monster.png";
     }, 2000);
   } else {
     console.log("undifined");
