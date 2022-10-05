@@ -172,7 +172,7 @@ document.querySelector(".mascotte").addEventListener("click", () => {
 
   var src = mascotte.src;
 
-  if (src === "http://localhost:3500/assets/images/Lion.png") {
+  if (src === "http://localhost:3500/assets/images/lion.png") {
     console.log("leeuw");
     id.play();
     mascotte.src = "/assets/images/leeuwlach.gif";
@@ -188,7 +188,7 @@ document.querySelector(".mascotte").addEventListener("click", () => {
     setTimeout(function () {
       mascotte.src = "/assets/images/Robot.png";
     }, 4000);
-  } else if (src === "http://localhost:3500/assets/images/Monster.png") {
+  } else if (src === "http://localhost:3500/assets/images/monster.png") {
     console.log("monster");
     id.play();
     mascotte.src = "/assets/images/monsterlach.gif";
@@ -196,6 +196,6 @@ document.querySelector(".mascotte").addEventListener("click", () => {
       mascotte.src = "/assets/images/Monster.png";
     }, 2000);
   } else {
-    console.log("undifeind");
+    console.log("undifined");
   }
 });
