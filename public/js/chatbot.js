@@ -2,7 +2,7 @@ window.addEventListener("load", (event) => {
   setTimeout(function () {
     var mascotte = document.querySelector(".mascotte");
 
-    if (mascotte.src === "http://localhost:3500/assets/images/Lion.png") {
+    if (mascotte.src === "/assets/images/lion.png") {
       var snurk = new Audio("/assets/audio/snurken.mp3");
       snurk.play();
       mascotte.src = "/assets/images/slaapleeuw.gif";
