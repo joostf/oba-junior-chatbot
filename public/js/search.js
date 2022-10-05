@@ -179,14 +179,14 @@ document.querySelector(".mascotte").addEventListener("click", () => {
     setTimeout(function () {
       mascotte.src = "/assets/images/lion.png";
     }, 2000);
-  } else if (src === "http://localhost:3500/assets/images/mascotte-robot.png") {
+  } else if (src === "/assets/images/mascotte-robot.png") {
     console.log("robot");
     var robotlach = new Audio("/assets/audio/robotlach.mp3");
     robotlach.play();
 
     mascotte.src = "/assets/images/robotlach.gif";
     setTimeout(function () {
-      mascotte.src = "/assets/images/Robot.png";
+      mascotte.src = "/assets/images/mascotte-robot.png";
     }, 4000);
   } else if (src === "http://localhost:3500/assets/images/monster.png") {
     console.log("monster");
