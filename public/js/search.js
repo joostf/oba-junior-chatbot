@@ -40,15 +40,15 @@ for (let i = 0; i < keuzebtn.length; i++) {
           document.querySelector("#convert_text").style.display = "none";
 
           console.log("is boek");
-          var prentboek = "classification:prentenboek%20";
+          
 
-          console.log(uitkomst + keuze + prentboek);
+          console.log(uitkomst + keuze);
 
           async function handleApi() {
             const endpoint = "https://cors-anywhere.herokuapp.com/https://zoeken.oba.nl/api/v1/search/?q=";
             const key = "cdb8415c172ec6178b63451e222891a6";
             const detail = "Default";
-            const resultaat = `${endpoint}${prentboek}${uitkomst}&authorization=${key}&refine=true&facet=type(${keuze})&output=json`;
+            const resultaat = `${endpoint}${uitkomst}&authorization=${key}&refine=true&facet=type(${keuze})&p=jeugd&output=json`;
             console.log("api: " + resultaat);
             const obaApi = await fetch(resultaat)
               .then((res) => res.json())
@@ -103,13 +103,13 @@ for (let i = 0; i < keuzebtn.length; i++) {
           console.log("is geen boek");
           document.querySelector("#convert_text").style.display = "none";
 
-          var prentboek = "";
-          console.log(uitkomst + keuze + prentboek);
+          
+          console.log(uitkomst + keuze);
           async function handleApi() {
             const endpoint = "https://cors-anywhere.herokuapp.com/https://zoeken.oba.nl/api/v1/search/?q=";
             const key = "cdb8415c172ec6178b63451e222891a6";
             const detail = "Default";
-            const resultaat = `${endpoint}${prentboek}${uitkomst}&authorization=${key}&refine=true&facet=type(${keuze})&output=json`;
+            const resultaat = `${endpoint}${uitkomst}&authorization=${key}&refine=true&facet=type(${keuze})&p=jeugd&output=json`;
             console.log("api: " + resultaat);
             const obaApi = await fetch(resultaat)
               .then((res) => res.json())

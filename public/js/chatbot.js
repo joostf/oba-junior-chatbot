@@ -7,7 +7,7 @@ window.addEventListener("load", (event) => {
       snurk.play();
       mascotte.src = "/assets/images/slaapleeuw.gif";
       setTimeout(function () {
-        mascotte.src = "/assets/images/Lion.png";
+        mascotte.src = "/assets/images/lion.png";
       }, 8000);
     } else {
     }

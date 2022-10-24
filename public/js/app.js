@@ -47,39 +47,42 @@ let characterLink = window.localStorage.getItem("character");
 mascotte.src = characterLink;
 
 // Text to voice
-speakButton.addEventListener("click", () => {
-  cancelButton.addEventListener("click", function () {
-    synth.cancel();
-  });
+if(speakButton){
+  speakButton.addEventListener("click", () => {
+    cancelButton.addEventListener("click", function () {
+      synth.cancel();
+    });
 
-  // text to speak >> textInput (new utterance of nieuwe uiting)
-  let utterance = new SpeechSynthesisUtterance(speechText.innerHTML);
-  // voice settings
-  utterance.lang = speechSettings.lang;
-  utterance.pitch = speechSettings.pitch;
-  utterance.rate = speechSettings.rate;
-  utterance.volume = speechSettings.volume;
-  // actually speak the utterance
-  synth.speak(utterance);
 
-  // add class when speaking
-  utterance.addEventListener("start", function () {
-    helper.classList.add("speaking");
-    speakButton.classList.add("hidden");
-    cancelButton.classList.remove("hidden");
-    textCloud.classList.add("opacity");
-    speechText.classList.add("glowing");
-  });
+    // text to speak >> textInput (new utterance of nieuwe uiting)
+    let utterance = new SpeechSynthesisUtterance(speechText.innerHTML);
+    // voice settings
+    utterance.lang = speechSettings.lang;
+    utterance.pitch = speechSettings.pitch;
+    utterance.rate = speechSettings.rate;
+    utterance.volume = speechSettings.volume;
+    // actually speak the utterance
+    synth.speak(utterance);
 
-  // remove class when speaking
-  utterance.addEventListener("end", function () {
-    helper.classList.remove("speaking");
-    cancelButton.classList.add("hidden");
-    speakButton.classList.remove("hidden");
-    textCloud.classList.remove("opacity");
-    speechText.classList.remove("glowing");
+    // add class when speaking
+    utterance.addEventListener("start", function () {
+      helper.classList.add("speaking");
+      speakButton.classList.add("hidden");
+      cancelButton.classList.remove("hidden");
+      textCloud.classList.add("opacity");
+      speechText.classList.add("glowing");
+    });
+
+    // remove class when speaking
+    utterance.addEventListener("end", function () {
+      helper.classList.remove("speaking");
+      cancelButton.classList.add("hidden");
+      speakButton.classList.remove("hidden");
+      textCloud.classList.remove("opacity");
+      speechText.classList.remove("glowing");
+    });
   });
-});
+}
 
 // animations (gsap)
 gsap.fromTo(".clip-text p", { x: 350 }, { x: 0, duration: 0.8, delay: 1 });
